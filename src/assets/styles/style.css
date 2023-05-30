@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: #1f1f1f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fac61c;
+  height: 80px;
+  box-shadow: 2px 2px 0px #000;
+}
+.nav-list a {
+  width: fit-content;
+  color: #111010;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.nav-list a:hover {
+  color: #ffffff;
+}
+.nav-list .home {
+  padding-right: 10vw;
+  padding-left: 0px;
+}
+.nav-list .contato {
+  padding-right: 0vw;
+  padding-left: 10vw;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+.header a {
+  width: fit-content;
+  color: #81792d;
+  font-size: 40px;
+}
+.header a:hover {
+  color: #e4d82e;
+}
+.header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  height: 700px;
+}
+
+.card {
+  text-align: center;
+}
+.card img {
+  height: 450px;
+  width: 400px;
+}
+
+.Produtos {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #e7c321;
+  height: 80px;
+}
+footer h3 {
+  width: fit-content;
+  color: #f2f2f2;
+}
+
+section h1 {
+  font-size: 50px;
+  color: #343434;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 290px);
+}
+.sobre p {
+  width: 500px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contato #email {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.contato button {
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  background-color: #d3a920;
+  color: #000000;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.contato button:hover {
+  background-color: #806621;
+}
+.contato h1 {
+  font-size: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+.info li {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.info li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+.info ul {
+  list-style: none;
+  width: fit-content;
+}
+
+.vh {
+  height: calc(100vh - 270px);
+}
+
+/*# sourceMappingURL=style.css.map */
